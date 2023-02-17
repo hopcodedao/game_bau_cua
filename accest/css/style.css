@@ -8,7 +8,7 @@
 
 body {
 	overflow-x: hidden;
-	font-family: "Arial",sans-serif;
+	font-family: "Arial", sans-serif;
 	font-weight: bold;
 	display: flex;
 	flex-direction: column;
@@ -50,7 +50,7 @@ header p {
 	cursor: pointer;
 	background-color: #03BD9C;
 	box-shadow: 0 0 5px #5CB65C,
-	0 0 10px yellow;
+		0 0 10px yellow;
 	font-weight: bold;
 	color: white;
 }
@@ -64,9 +64,9 @@ header p {
 	cursor: pointer;
 	background-color: gold;
 	box-shadow: 0 0 5px orange,
-	0 0 10px yellow;
+		0 0 10px yellow;
 	font-weight: bold;
-	color: red;	
+	color: red;
 }
 
 #FunctionBTN {
@@ -81,7 +81,7 @@ header p {
 	position: fixed;
 	left: 0;
 	top: 0;
-	background-color: rgba(0,0,0,0.8);
+	background-color: rgba(0, 0, 0, 0.8);
 	width: 100vw;
 	height: 100vh;
 	z-index: 999;
@@ -109,7 +109,7 @@ header p {
 	cursor: pointer;
 	background-color: red;
 	box-shadow: 0 0 10px yellow,
-	0 0 15px red;
+		0 0 15px red;
 	font-weight: bold;
 	color: white;
 }
@@ -151,7 +151,7 @@ header p {
 	position: relative;
 }
 
-.ChooseBC .BauCuaChoose {
+.ChooseBC .bau_cua_choose {
 	max-width: calc(100vw / 3 - 20px);
 	max-height: calc(100vw / 3 - 20px);
 }
@@ -165,7 +165,7 @@ header p {
 	height: 100%;
 	justify-content: center;
 	align-items: center;
-	background-color: rgba(0,0,0,0.8);
+	background-color: rgba(0, 0, 0, 0.8);
 	z-index: 10;
 }
 
@@ -215,7 +215,7 @@ header p {
 	font-size: 28px;
 	border-radius: 5px;
 	color: white;
-	background-color: rgba(220,20,60,0.9);
+	background-color: rgba(220, 20, 60, 0.9);
 	border: none;
 	padding: 10px 20px;
 	font-weight: bold;
@@ -227,6 +227,7 @@ header p {
 	0% {
 		left: 125%;
 	}
+
 	100% {
 		left: 40%;
 	}
@@ -236,7 +237,7 @@ header p {
 	width: 150px;
 	border-width: 0px;
 	font-weight: bold;
-	font-family: "Arials",sans-serif;
+	font-family: "Arials", sans-serif;
 	background-color: red;
 	margin: 10px 20px;
 	box-shadow: 0 9px #999;
@@ -249,13 +250,13 @@ header p {
 }
 
 #submit:active {
-  box-shadow: 0 5px #666;
-  transform: translateY(4px);
+	box-shadow: 0 5px #666;
+	transform: translateY(4px);
 }
 
 .shake {
-  animation: shake 0.5s;
-  animation-iteration-count: infinite;
+	animation: shake 0.5s;
+	animation-iteration-count: infinite;
 }
 
 .block {
@@ -268,17 +269,49 @@ header p {
 }
 
 @keyframes shake {
-  0% { transform: translate(2px, 2px) rotate(0deg); }
-  10% { transform: translate(-2px, -3px) rotate(-1deg); }
-  20% { transform: translate(-4px, 1px) rotate(1deg); }
-  30% { transform: translate(4px, 5px) rotate(0deg); }
-  40% { transform: translate(4px, -1px) rotate(1deg); }
-  50% { transform: translate(-1px, 2px) rotate(-1deg); }
-  60% { transform: translate(-3px, 1px) rotate(0deg); }
-  70% { transform: translate(5px, -2px) rotate(-1deg); }
-  80% { transform: translate(-1px, -1px) rotate(1deg); }
-  90% { transform: translate(1px, 2px) rotate(0deg); }
-  100% { transform: translate(1px, -2px) rotate(-1deg); }
+	0% {
+		transform: translate(2px, 2px) rotate(0deg);
+	}
+
+	10% {
+		transform: translate(-2px, -3px) rotate(-1deg);
+	}
+
+	20% {
+		transform: translate(-4px, 1px) rotate(1deg);
+	}
+
+	30% {
+		transform: translate(4px, 5px) rotate(0deg);
+	}
+
+	40% {
+		transform: translate(4px, -1px) rotate(1deg);
+	}
+
+	50% {
+		transform: translate(-1px, 2px) rotate(-1deg);
+	}
+
+	60% {
+		transform: translate(-3px, 1px) rotate(0deg);
+	}
+
+	70% {
+		transform: translate(5px, -2px) rotate(-1deg);
+	}
+
+	80% {
+		transform: translate(-1px, -1px) rotate(1deg);
+	}
+
+	90% {
+		transform: translate(1px, 2px) rotate(0deg);
+	}
+
+	100% {
+		transform: translate(1px, -2px) rotate(-1deg);
+	}
 }
 
 
@@ -297,11 +330,11 @@ header p {
 }
 
 #SanDau .ChooseBC:active {
-	background-color: rgba(220,20,60,0.8);
+	background-color: rgba(220, 20, 60, 0.8);
 }
 
 .ChipsActive {
-	background-color: rgba(220,20,60,0.8);
+	background-color: rgba(220, 20, 60, 0.8);
 }
 
 .chipBet {
@@ -316,7 +349,7 @@ header p {
 	width: 100vw;
 	height: 100vh;
 	position: fixed;
-	background-color: rgba(0,0,0,0.8);
+	background-color: rgba(0, 0, 0, 0.8);
 	padding: 10px 20px;
 	left: 0;
 	top: 0;
@@ -361,6 +394,7 @@ header p {
 	#FunctionBTN {
 		display: none;
 	}
+
 	#more {
 		display: initial;
 	}
